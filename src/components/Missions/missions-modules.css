@@ -1,6 +1,22 @@
-.missions {
+.content-missions {
   align-items: center;
   display: flex;
-  flex-direction: row;
-  padding: 40px 0;
+  flex-direction: column;
+  justify-content: center;
+  margin: 60px auto;
+  width: 900px;
+}
+
+.content-missions h2 {
+  margin-bottom: 40px;
+}
+
+.missions {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  padding: 20px;
 }

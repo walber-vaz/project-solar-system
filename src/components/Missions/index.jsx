@@ -7,17 +7,19 @@ import './missions-modules.css';
 
 export default function Missions() {
   return (
-    <div data-testid="missions" className="missions">
+    <div data-testid="missions" className="content-missions">
       <Title headline="Missões" />
-      {missions.map(({ name, year, country, destination }, index) => (
-        <MissionCard
-          key={ index }
-          name={ name }
-          year={ year }
-          country={ country }
-          destination={ destination }
-        />
-      ))}
+      <div className="missions">
+        {missions.map(({ name, year, country, destination }, index) => (
+          <MissionCard
+            key={ index }
+            name={ name }
+            year={ year }
+            country={ country }
+            destination={ destination }
+          />
+        ))}
+      </div>
     </div>
   );
 }

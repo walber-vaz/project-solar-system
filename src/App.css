@@ -11,6 +11,9 @@ body, html, :root {
 
 body {
   background-image: url('./images/background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #f8f8f8;
 }
 

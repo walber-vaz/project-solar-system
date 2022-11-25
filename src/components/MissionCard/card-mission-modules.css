@@ -1,0 +1,35 @@
+.card-mission {
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+}
+
+#name-mission {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  border-bottom: 1px solid #dedede;
+}
+
+#year-mission {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#country-mission {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#planet-mission {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
