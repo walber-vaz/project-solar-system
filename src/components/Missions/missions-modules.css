@@ -1,0 +1,6 @@
+.missions {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 40px 0;
+}

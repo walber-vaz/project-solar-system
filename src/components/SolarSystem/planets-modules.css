@@ -1,0 +1,25 @@
+.planets {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 500px;
+}
+
+.planets p {
+  display: inline-block;
+  position: relative;
+  top: 130px;
+}
+
+.header-planets {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.planets img {
+  height: 100px;
+}

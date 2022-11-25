@@ -1,3 +1,24 @@
-.App {
-  text-align: center;
+/* reset css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html, :root {
+  font-family: Helvetica , sans-serif;
+}
+
+body {
+  background-image: url('./images/background.png');
+  color: #f8f8f8;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 900px;
 }
